@@ -1,0 +1,68 @@
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1000;
+}
+
+.form {
+  position: relative;
+  width: 500px;
+  margin: 100px auto auto;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  padding: 20px;
+}
+.form-body,
+.form-button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-add .form-body{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.form-body p {
+  line-height: 1.5;
+}
+
+.form-body input,
+.form-body textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+}
+.form-body textarea {
+  resize: none;
+}
+
+.form-body input:focus,
+.form-body textarea:focus {
+  border: 1px solid #000;
+}
+.form-button {
+  display: flex;
+  justify-content: end;
+}
+.form-button .btn {
+  padding: 10px 25px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  margin-right: 10px;
+  border-radius: 15px;
+  outline: none;
+  display: block;
+  font-size: 16px;
+} 
+
+.form-button .btn:hover {
+  border-color: #000;
+  cursor: pointer;
+}
+

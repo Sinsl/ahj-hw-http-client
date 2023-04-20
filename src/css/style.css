@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+}
+.main {
+  width: 800px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  padding: 20px;
+}
+.main h2 {
+  margin-top: 20px;
+}
+.helpdesk {
+  margin-top: 20px;
+}
+
+.hd-add {
+  display: flex;
+  justify-content: end;
+}
+.hd-add-ticket {
+  display: block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.hd-add-ticket:hover {
+  color: green;
+  border-color: green;
+}
+
+.hd-cards {
+  margin-top: 20px;
+}
+
+.hd-card {
+  border: 1px solid #aaa;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hd-card_check {
+  margin: 10px 15px;
+}
+
+.hd-card_check__round,
+.hd-card_change_round {
+  border: 2px solid #aaa;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 50%;
+}
+
+.hd-card_check__round:hover {
+  color: green;
+  border-color: green;
+}
+
+.hd-card_body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hd-card_body__header{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5px;
+}
+.hd-card_body__header-title {
+  width: 100%;
+}
+
+.hd-card_body__header-time {
+  text-align: right;
+  width: 110px;
+  flex: 1 0 auto;
+}
+
+.hd-card_body__header-title {
+  padding-right: 10px;
+}
+
+
+.hd-card_change {
+  margin: 10px;
+  display: flex;
+}
+
+.hd-card_change_round {
+  margin: 0 5px;
+}
+
+.hd-card_change_round {
+  padding-top: 5px;
+  font-size: 14px;
+}
+.hd-card_change__delete {
+  padding-top: 3px;
+  font-size: 20px;
+}
+.hd-card_change__put:hover {
+  color: orange;
+  border-color: orange;
+}
+.hd-card_change__delete:hover {
+  color: red;
+  border-color: red;
+}
+
+.hd-card_body__description {
+  padding: 25px 10px;
+  border-top: 1px dashed #aaa;
+  display: none;
+}
+
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
