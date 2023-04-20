@@ -2,7 +2,8 @@
 ---
 ### **проверка AppVeyor**
 
-![CI](https://github.com/Sinsl/ahj-hw-http-client/actions/workflows/web.yml/badge.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/3t0oeqa72he8mo9d?svg=true)](https://ci.appveyor.com/project/Sinsl/ahj-hw-http-client)
+
 
 ### **Ссылка на страницу**
 [Github Page](https://sinsl.github.io/ahj-hw-http-client)
