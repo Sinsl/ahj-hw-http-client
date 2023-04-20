@@ -1,5 +1,5 @@
 export default async function requestServer(options, callback) {
-  const url = 'http://localhost:7070/ticket' + options.url;
+  const url = 'https://ahj-hw-http-server.onrender.com/ticket' + options.url;
   const response = await fetch(url, {
     method: options.method,
     headers: {
